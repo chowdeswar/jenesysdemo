@@ -1,0 +1,22 @@
+.flaticon-tick:before {
+    content: "\f105";
+}
+
+.event_text {
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1.2px;
+    text-align: left;
+    padding-left: 15px;
+    color: #696969;
+    font-weight: 400 !important;
+}
+
+.list {
+    li {
+        display: block !important;
+        span {
+            font-size: 20px;
+        }
+    }
+}
