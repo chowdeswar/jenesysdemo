@@ -1361,6 +1361,10 @@ Navbar Area CSS
         text-align: left !important;
     }
 
+    .footer-heading {
+        margin-top: 30px !important;
+    }
+
 }
 
 /*================================================
@@ -6441,9 +6445,9 @@ Page Title Area CSS
                 color: #333;
                 transition: $transition;
 
-                &:hover {
-                    // color: $main-color;
-                }
+                // &:hover {
+                //     // color: $main-color;
+                // }
             }
 
             &::before {
@@ -8519,4 +8523,14 @@ Go Top CSS
     padding: 0px 100px;
     line-height: 2;
     letter-spacing: 2px;
+}
+
+.footer_text {
+    margin: 0;
+    padding: 0;
+    color: black;
+    opacity: 0.7;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
 }

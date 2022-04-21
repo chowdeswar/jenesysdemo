@@ -14,7 +14,7 @@ export class PartnerComponent implements OnInit {
 
     ngOnInit(): void {
         this.titleCap.setTitle('Partner Solutions - Jenesys Technologies');
-        // this.locationPath = window.location.protocol + '' + window.location.host;
+        this.locationPath = window.location.protocol + '' + window.location.host;
         // this.location.subscribe(res => {
         // console.log(this.locationPath);
         // });
